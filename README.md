@@ -51,6 +51,13 @@ This is a ~~strikethrough~~.
 2. Ordered list 3 item 2
 + Unordered list 4 item 1
 
+**task list**
+- [x] Done
+- [ ] Undone
+- [ ] \(Optional) Undone
+
+@Fracturist Work harder!
+
 # 1. Ordered Headline?
 
 ## Try to quote
@@ -94,15 +101,41 @@ Inline style link to [Google](https://www.google.com/ "Google Link 1").
 Reference style link to [Bing][1] or [Reference 2].
 
 
-Test [headline](https://github.com/Fracturist/Hello-World/edit/main/README.md#hello-world)
+Test [headline](https://github.com/Fracturist/Hello-World/blob/main/README.md#hello-world)
 
 
 # Try Images
 
-![GitHub Light](https://assets2.rockpapershotgun.com/elden-ring-ranni.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/elden-ring-ranni.jpg#gh-dark-mode-only)
+![Wikipedia](https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png "Wikipedia")
+***
+---
+___
+![Elden Ring 1](https://assets2.rockpapershotgun.com/elden-ring-ranni.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/elden-ring-ranni.jpg "Ranni")
 
-![GitHub Dark](https://assets2.rockpapershotgun.com/elden-ring-rennala.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/elden-ring-rennala.jpg#gh-light-mode-only)
+![Elden Ring 2]
+
+
+# Try Footnotes
+
+This is a line[^1].
+Second line with footnotes[^FN2]
+
+[^1]: My footnote 1
+[^FN2]: My footnote 2
+
+## Table
+
+| Title   | Description                               |
+| :------ | :---------------------------------------: |
+| Version | 0.0.1                                     |
+| Editor  | [Fracturist](guoh19@mails.tsinghu.edu.cn) |
+
+
+# Using emoji
+
+This is a :wink: [emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 
 [1]: https://cn.bing.com/
 [Reference 2]: https://www.google.com/ "Google Link 2"
+[Elden Ring 2]: https://assets2.rockpapershotgun.com/elden-ring-rennala.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/elden-ring-rennala.jpg#gh-light-mode-only "Rennala"
